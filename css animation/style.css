@@ -13,10 +13,10 @@ body {
     margin: 0 auto;
 }
 
-/* Земля (менша і по центру) */
+/* Земля */
 #earth {
     position: absolute;
-    width: 360px; /* 110px * 3 */
+    width: 360px; 
     top: 250px;
     left: 200px;
     z-index: 1;
@@ -33,7 +33,7 @@ body {
     animation: orbita 5s linear infinite;
 }
 
-/* Анімація по точках як в методичці */
+/* Анімація по точках */
 @keyframes orbita {
 
     0% {
